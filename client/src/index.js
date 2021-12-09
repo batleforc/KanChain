@@ -2,13 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { Drizzle, generateStore } from "@drizzle/store";
 import { DrizzleContext } from "@drizzle/react-plugin";
-import SimpleStorage from "./contracts/SimpleStorage.json";
+import Board from "./contracts/Board.json";
 
-const options = { contracts: [SimpleStorage] };
+const options = {
+  contracts: [Board],
+  web3: { fallback: { url: "ws://127.0.0.1:7545" } },
+};
 const drizzleStore = generateStore(options);
 const drizzle = new Drizzle(options, drizzleStore);
 
