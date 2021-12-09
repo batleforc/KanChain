@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "diff",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "desc",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Task.sol": "Task"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Task.sol": {
+			"keccak256": "0xdbc33133057fb30929c0c373e03c062e4b8f43c4f0435a98cca1675be5faa416",
+			"urls": [
+				"bzz-raw://981536986be2c522b73ac95cd32c66a89aae25075658cddc6d24448b22327b65",
+				"dweb:/ipfs/QmetxMiFRRsLnY47VTH3FVwezcqwFwCaHBpamTE6yZJtFN"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "diff",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "desc",
+						"type": "string"
+					}
+				],
+				"name": "addTask",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "allisgood",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Board.sol": "Board"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Board.sol": {
+			"keccak256": "0xfa3d3d9267d11ef75ae70212c5fde2e96ecdfb31052e80ee27391d06bb5047b5",
+			"urls": [
+				"bzz-raw://6aff6f363961e67681db8590782cc7a89358baf59ab43a8a1a4b022b1d6fec0f",
+				"dweb:/ipfs/QmcXFhzkGKV2cEunE4AQvYLRvqfvSFjBTpAK7bzqEZYfHo"
+			]
+		},
+		"contracts/Task.sol": {
+			"keccak256": "0xdbc33133057fb30929c0c373e03c062e4b8f43c4f0435a98cca1675be5faa416",
+			"urls": [
+				"bzz-raw://981536986be2c522b73ac95cd32c66a89aae25075658cddc6d24448b22327b65",
+				"dweb:/ipfs/QmetxMiFRRsLnY47VTH3FVwezcqwFwCaHBpamTE6yZJtFN"
+			]
+		}
+	},
+	"version": 1
+}
