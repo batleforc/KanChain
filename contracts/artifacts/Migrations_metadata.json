@@ -6,34 +6,18 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "diff",
-						"type": "int256"
-					},
-					{
-						"internalType": "string",
-						"name": "desc",
-						"type": "string"
-					},
-					{
-						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "description",
+				"name": "last_completed_migration",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -41,15 +25,28 @@
 			},
 			{
 				"inputs": [],
-				"name": "difficulty",
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "address",
 						"name": "",
-						"type": "int256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "completed",
+						"type": "uint256"
+					}
+				],
+				"name": "setCompleted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -66,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Task.sol": "Task"
+			"contracts/Migrations.sol": "Migrations"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -80,11 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Task.sol": {
-			"keccak256": "0x7e559f0b879288303a4b8dc23e11cc7318fd6eddf18d7d2ae6768eaeda7c7568",
+		"contracts/Migrations.sol": {
+			"keccak256": "0xdafe59a98205ba8889cd295e6e3cee4b741abfc91f43f6bba8bef739b3978392",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ad2e662db66850e920186f16dc6562a58536b47dea233045bc990c00f36d215f",
-				"dweb:/ipfs/QmfFzP1Xhmj59JWnaJ75V5hZQjUXbNVn6AQ8Kqm4cEG4qa"
+				"bzz-raw://7d56941ef77b8c2e6b952b0e12babf72dfdc75a4064fec423e1f3b1d31f7b672",
+				"dweb:/ipfs/QmPHLHa5ApVbJu8LyKF6xmmJVAg53Qac7KVZWRbkrXJVYx"
 			]
 		}
 	},

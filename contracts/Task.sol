@@ -4,8 +4,8 @@ contract Task{
   enum Status { ToDo, InProgress, Done}
   Status status;
   address addr;
-  int difficulty;
-  string description;
+  int public difficulty;
+  string public description;
   address User;
   constructor(int diff, string memory desc,address owner) public {
     difficulty = diff;

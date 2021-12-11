@@ -28,6 +28,64 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllTask",
+				"outputs": [
+					{
+						"internalType": "contract Task[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getTask",
+				"outputs": [
+					{
+						"internalType": "contract Task",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nbrTask",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewTask",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -58,17 +116,17 @@
 	},
 	"sources": {
 		"contracts/Board.sol": {
-			"keccak256": "0xfa3d3d9267d11ef75ae70212c5fde2e96ecdfb31052e80ee27391d06bb5047b5",
+			"keccak256": "0x7e2ce60acd95d0fd27a52ced65b5afb2e40971a75fce65796dd13dfb040a549b",
 			"urls": [
-				"bzz-raw://6aff6f363961e67681db8590782cc7a89358baf59ab43a8a1a4b022b1d6fec0f",
-				"dweb:/ipfs/QmcXFhzkGKV2cEunE4AQvYLRvqfvSFjBTpAK7bzqEZYfHo"
+				"bzz-raw://3e33e801317fc2dd4291ea1ae53405df447eacbc0632a4cb257eb8b654c9669b",
+				"dweb:/ipfs/QmZrbYr5BeBpYLFMgAhBNp3bSpSj3PffHrpZXuqsxbdVNA"
 			]
 		},
 		"contracts/Task.sol": {
-			"keccak256": "0xdbc33133057fb30929c0c373e03c062e4b8f43c4f0435a98cca1675be5faa416",
+			"keccak256": "0x7e559f0b879288303a4b8dc23e11cc7318fd6eddf18d7d2ae6768eaeda7c7568",
 			"urls": [
-				"bzz-raw://981536986be2c522b73ac95cd32c66a89aae25075658cddc6d24448b22327b65",
-				"dweb:/ipfs/QmetxMiFRRsLnY47VTH3FVwezcqwFwCaHBpamTE6yZJtFN"
+				"bzz-raw://ad2e662db66850e920186f16dc6562a58536b47dea233045bc990c00f36d215f",
+				"dweb:/ipfs/QmfFzP1Xhmj59JWnaJ75V5hZQjUXbNVn6AQ8Kqm4cEG4qa"
 			]
 		}
 	},
